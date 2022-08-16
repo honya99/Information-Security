@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Submitting a Form</title>
+  </head>
+  <body onload="document.forms[0].submit()">
+    <form action="http://cs6035-warmup.gatech.edu:5000/forms?IsHoneyPot=false" method="post">
+        <label for="GATechID">GATechID</label><br>
+        <input type="text" id="GATechID" name="GATechID" value="helfayoumy3"><br>
+        <label for="MagicNumber">MagicNumber</label><br>
+        <input type="text" id="MagicNumber" name="MagicNumber" value="2020">
+        <label for="hiddenpassword">hiddenpassword</label><br>
+        <input type="text" id="hiddenpassword" name="hiddenpassword" value="CS-6035">
+    </form>
+  </body>
+</html>
